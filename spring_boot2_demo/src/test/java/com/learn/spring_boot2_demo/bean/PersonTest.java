@@ -33,6 +33,7 @@ public class PersonTest {
         logger.info("日志记录开始");
         System.out.println(service.toString());
         logger.info("执行成功，并结束");
+
     }
 
 }

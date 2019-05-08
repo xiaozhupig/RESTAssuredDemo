@@ -1,17 +1,16 @@
-package com.learn.spring_boot2_demo.bean;
+package com.learn.spingboot.demo.pojo;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Getter
 @Setter
+@Getter
 @ToString
-public class Person {
-
+public class User {
+    private int id;
     private String name;
     private Integer age;
-    private String address;
-
-
+    private Integer phone;
+    private String email;
 }
