@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
 
     @RequestMapping("/hello")
-    public void sayHello(){
-        System.out.println("hello,springmvc");
+    public String sayHello() {
+        System.out.println("hello,springmvc+++++");
+        return "hello";
     }
 }

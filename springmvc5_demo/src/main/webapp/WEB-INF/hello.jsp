@@ -1,6 +1,6 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-<p>${h}</p>
+<p></p>
 </body>
 </html>
